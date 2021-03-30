@@ -7,7 +7,6 @@ RUN apt-get update -y && \
         build-essential python-dev libffi-dev libssl-dev patch \
         python-pip python-setuptools python-wheel python-virtualenv \
         uwsgi uwsgi-plugin-python \
-        postgresql-client \
         python-psycopg2 python-ldap \
         git-core mercurial subversion python-svn && \
         rm -rf /var/lib/apt/lists/*
